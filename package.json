@@ -1,0 +1,16 @@
+{
+  "name": "summit-peers",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:MainframeHQ/summit-peers.git",
+  "author": "Paul Le Cam <paul@mainframe.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node -r esm ."
+  },
+  "dependencies": {
+    "esm": "^3.0.28",
+    "ioredis": "^3.2.2"
+  }
+}
